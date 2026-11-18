@@ -118,7 +118,7 @@ python -m mcpguard_adk.cli shell
 
 ---
 
-## 🏗️ Architecture: 6-Stage Google ADK 2.0 Hybrid Graph
+##  Architecture: 6-Stage Google ADK 2.0 Hybrid Graph
 
 Enterprise AI agent deployments hit two production blockers:
 1. **AppSec & MCP Supply Chain:** Over-broad MCP host mounts (`"/"`), unpinned `npx -y` execution, plaintext secrets in `mcp.json` or `.env`, indirect prompt injection in tool metadata, and client-side XSS sinks.
